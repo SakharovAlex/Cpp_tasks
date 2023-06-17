@@ -9,13 +9,13 @@
 Необходимо реализовать класс Deque<T, Allocator>, который должен содержать следующие методы:
 
 - Конструкторы
-- - Deque() - по умолчанию
-- - Deque(const Allocator&)
-- - Deque(const Deque&) - копирования
-- - Deque(size_t count, const Allocator& alloc = Allocator()) - создает дек на count элементов
-- - Deque(size_t count, const T& value, const Allocator& alloc = Allocator()) - создает дек на count элементов и инициализирует все значения с помощью value
-- - Deque(Deque&& other)
-- - Deque(std::initializer_list<T> init, const Allocator& alloc = Allocator())
+  - Deque() - по умолчанию
+  - Deque(const Allocator&)
+  - Deque(const Deque&) - копирования
+  - Deque(size_t count, const Allocator& alloc = Allocator()) - создает дек на count элементов
+  - Deque(size_t count, const T& value, const Allocator& alloc = Allocator()) - создает дек на count элементов и инициализирует все значения с помощью value
+  - Deque(Deque&& other)
+  - Deque(std::initializer_list<T> init, const Allocator& alloc = Allocator())
 - Деструктор
 - operator=(const Deque& other) - оператор присваивания копированием
 - size_t size() - возвращает текущий размер дека
