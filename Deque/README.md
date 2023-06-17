@@ -9,10 +9,10 @@
 Необходимо реализовать класс Deque, который должен содержать следующие методы:
 
 - Конструкторы
- - - Deque() - по умолчанию
-- Deque(const Deque&) - копирования
-- Deque(size_t count) - создает дек на count элементов
-- Deque(size_t count, const T& value) - создает дек на count элементов и инициализирует все значения с помощью value
+- - Deque() - по умолчанию
+- - Deque(const Deque&) - копирования
+- - Deque(size_t count) - создает дек на count элементов
+- - Deque(size_t count, const T& value) - создает дек на count элементов и инициализирует все значения с помощью value
 - Деструктор
 - operator=(const Deque& other) - оператор присваивания копированием
 - size_t size() - возвращает текущий размер дека
